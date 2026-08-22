@@ -161,7 +161,7 @@ a {
 
 .brand-logo-wide {
   display: block;
-  height: 58px;
+  height: 58px; 
   width: auto;
   object-fit: contain;
 }
