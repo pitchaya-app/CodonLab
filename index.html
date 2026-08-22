@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CodonLab : ปฏิบัติการถอดรหัสสร้างชีวิต</title>
+  <meta name="description" content="เว็บไซต์นำเสนอสื่อการเรียนรู้ CodonLab : ปฏิบัติการถอดรหัสสร้างชีวิต" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bg-orb orb-1"></div>
+  <div class="bg-orb orb-2"></div>
+  <div class="bg-grid"></div>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <div class="brand">
+        <div class="brand-logo">🧬</div>
+        <div>
+          <div class="brand-title">CodonLab</div>
+          <div class="brand-sub">Decode to Life</div>
+        </div>
+      </div>
+
+      <nav class="nav">
+        <a href="#about">เกี่ยวกับ</a>
+        <a href="#materials">อุปกรณ์</a>
+        <a href="#steps">วิธีใช้งาน</a>
+        <a href="#gallery">กิจกรรม</a>
+        <a href="#results">ผลลัพธ์</a>
+      </nav>
+
+      <button class="menu-btn" id="menuBtn">☰</button>
+    </div>
+
+    <div class="mobile-nav" id="mobileNav">
+      <a href="#about">เกี่ยวกับ</a>
+      <a href="#materials">อุปกรณ์</a>
+      <a href="#steps">วิธีใช้งาน</a>
+      <a href="#gallery">กิจกรรม</a>
+      <a href="#results">ผลลัพธ์</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text reveal">
+          <p class="eyebrow">INNOVATIVE LEARNING MEDIA</p>
+          <h1>
+            CodonLab<br />
+            <span>ปฏิบัติการถอดรหัสสร้างชีวิต</span>
+          </h1>
+          <p class="hero-desc">
+            สื่อการเรียนรู้ที่ช่วยให้นักเรียนเข้าใจกระบวนการ
+            <strong>DNA → RNA → Amino Acid → Protein</strong>
+            ผ่านการลงมือปฏิบัติจริงด้วยการถอดรหัส แปลรหัส และสร้างแบบจำลองโปรตีนอย่างสนุกและมีความหมาย
+          </p>
+
+          <div class="hero-actions">
+            <a href="#about" class="btn btn-primary">เริ่มสำรวจสื่อ</a>
+            <a href="#gallery" class="btn btn-secondary">ชมภาพกิจกรรม</a>
+          </div>
+
+          <div class="hero-tags">
+            <span>ชีววิทยา ม.4</span>
+            <span>Protein Synthesis</span>
+            <span>Active Learning</span>
+            <span>Game-Based Learning</span>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal delay-1">
+          <div class="hero-card">
+            <div class="dna-ring"></div>
+            <div class="hero-image">
+              <img src="assets/codonlab-hero.png" alt="CodonLab Hero" />
+            </div>
+            <div class="floating-card fc-1">
+              <strong>Decode</strong>
+              <span>แปลงสีเป็นรหัส DNA</span>
+            </div>
+            <div class="floating-card fc-2">
+              <strong>Transcribe</strong>
+              <span>ถอด DNA เป็น mRNA</span>
+            </div>
+            <div class="floating-card fc-3">
+              <strong>Translate</strong>
+              <span>อ่าน codon เป็นกรดอะมิโน</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-bottom container">
+        <div class="stat-card reveal">
+          <div class="stat-number" data-target="82.99">0</div>
+          <div class="stat-label">ผลสัมฤทธิ์เฉลี่ยหลังใช้สื่อ (%)</div>
+        </div>
+        <div class="stat-card reveal delay-1">
+          <div class="stat-number" data-target="81.32">0</div>
+          <div class="stat-label">อธิบายกระบวนการสังเคราะห์โปรตีนได้ (%)</div>
+        </div>
+        <div class="stat-card reveal delay-2">
+          <div class="stat-number" data-target="100">0</div>
+          <div class="stat-label">การมีส่วนร่วมในการทำกิจกรรม (%)</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-tag">ABOUT CODONLAB</p>
+          <h2>CodonLab คืออะไร?</h2>
+          <p>
+            CodonLab เป็นสื่อการเรียนรู้เชิงปฏิบัติการที่ออกแบบเพื่อช่วยให้นักเรียน
+            เข้าใจกระบวนการถอดรหัสและแปลรหัสทางพันธุกรรมอย่างเป็นรูปธรรม
+            โดยใช้ “สี รหัส ตัวอักษร และลูกปัด” เป็นตัวแทนของสารพันธุกรรมและกรดอะมิโน
+            ทำให้นักเรียนได้เรียนรู้ผ่านการลงมือทำจริง คิด วิเคราะห์ และเชื่อมโยงความรู้ได้ชัดเจนยิ่งขึ้น
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <div class="glass-card reveal">
+            <h3>🎯 จุดประสงค์</h3>
+            <ul>
+              <li>อธิบายโครงสร้างและหน้าที่ของ DNA และ RNA ได้</li>
+              <li>เข้าใจกระบวนการ Transcription และ Translation</li>
+              <li>แปลความหมายจาก Codon เป็น Amino Acid ได้</li>
+              <li>สร้างแบบจำลองสาย Polypeptide ได้อย่างถูกต้อง</li>
+            </ul>
+          </div>
+
+          <div class="glass-card reveal delay-1">
+            <h3>✨ จุดเด่นของสื่อ</h3>
+            <ul>
+              <li>แปลงเนื้อหายากให้มองเห็นและจับต้องได้</li>
+              <li>เน้น Active Learning และการร่วมมือกันทำงาน</li>
+              <li>กระตุ้นการคิดวิเคราะห์และการแก้ปัญหา</li>
+              <li>เชื่อมโยงความรู้ทางชีววิทยากับการสร้างชิ้นงานจริง</li>
+            </ul>
+          </div>
+
+          <div class="glass-card reveal delay-2">
+            <h3>🧠 เหมาะกับใคร</h3>
+            <ul>
+              <li>นักเรียนระดับชั้นมัธยมศึกษาตอนปลาย</li>
+              <li>ครูชีววิทยาที่ต้องการสื่อแบบลงมือปฏิบัติ</li>
+              <li>การนำเสนอนวัตกรรม / Best Practice / งานวิชาการ</li>
+              <li>กิจกรรมห้องเรียนและนิทรรศการวิทยาศาสตร์</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MATERIALS -->
+    <section id="materials" class="section alt-section">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-tag">LEARNING KIT</p>
+          <h2>อุปกรณ์ในชุดสื่อ CodonLab</h2>
+          <p>อุปกรณ์ทุกชิ้นถูกออกแบบมาเพื่อเชื่อมโยงแนวคิดทางชีววิทยาให้เป็นประสบการณ์การเรียนรู้ที่เข้าใจง่าย สนุก และน่าจดจำ</p>
+        </div>
+
+        <div class="materials-grid">
+          <div class="material-card reveal">
+            <div class="material-icon">🎨</div>
+            <h3>ตารางรหัสสี</h3>
+            <p>ใช้เชื่อมโยงสีในภาพ Pixel กับลำดับเบสของ DNA เพื่อเริ่มต้นกระบวนการถอดรหัส</p>
+          </div>
+
+          <div class="material-card reveal delay-1">
+            <div class="material-icon">🧬</div>
+            <h3>ตารางรหัส DNA / mRNA</h3>
+            <p>ใช้สำหรับถอดรหัสจาก DNA ไปเป็น mRNA อย่างเป็นขั้นตอน</p>
+          </div>
+
+          <div class="material-card reveal delay-2">
+            <div class="material-icon">📘</div>
+            <h3>ตาราง Codon</h3>
+            <p>ช่วยให้นักเรียนแปลรหัส mRNA เป็นกรดอะมิโนได้อย่างถูกต้อง</p>
+          </div>
+
+          <div class="material-card reveal">
+            <div class="material-icon">🔴</div>
+            <h3>ลูกปัดกรดอะมิโน</h3>
+            <p>ใช้แทนกรดอะมิโนแต่ละชนิด เพื่อสร้างแบบจำลองสาย Polypeptide</p>
+          </div>
+
+          <div class="material-card reveal delay-1">
+            <div class="material-icon">🧵</div>
+            <h3>เชือกร้อย</h3>
+            <p>ใช้ร้อยลูกปัดเรียงตามลำดับกรดอะมิโนที่ได้จากการแปลรหัส</p>
+          </div>
+
+          <div class="material-card reveal delay-2">
+            <div class="material-icon">📋</div>
+            <h3>ใบกิจกรรม</h3>
+            <p>บันทึกคำตอบ ขั้นตอน และผลการเรียนรู้ของนักเรียนในแต่ละกลุ่ม</p>
+          </div>
+
+          <div class="material-card reveal">
+            <div class="material-icon">🖼️</div>
+            <h3>ภาพ Pixel</h3>
+            <p>ใช้เป็นโจทย์ตั้งต้นให้นักเรียนถอดรหัสจากสีไปสู่สารพันธุกรรม</p>
+          </div>
+
+          <div class="material-card reveal delay-1">
+            <div class="material-icon">🧪</div>
+            <h3>ชุดสื่อประกอบ</h3>
+            <p>ภาพตัวอย่าง ใบความรู้ และสื่อช่วยอธิบายหลักการพันธุศาสตร์เพิ่มเติม</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- STEPS -->
+    <section id="steps" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-tag">HOW TO USE</p>
+          <h2>วิธีการใช้งาน CodonLab</h2>
+          <p>ขั้นตอนการเรียนรู้ถูกออกแบบให้เรียงลำดับจากง่ายไปยาก เพื่อให้นักเรียนเข้าใจภาพรวมของการสังเคราะห์โปรตีนอย่างเป็นระบบ</p>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item reveal">
+            <div class="timeline-no">01</div>
+            <div class="timeline-content">
+              <h3>สังเกตภาพ Pixel</h3>
+              <p>นักเรียนเริ่มจากการวิเคราะห์สีในภาพ Pixel และแยกตำแหน่งสีอย่างเป็นระบบ</p>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal delay-1">
+            <div class="timeline-no">02</div>
+            <div class="timeline-content">
+              <h3>ถอดรหัสสีเป็น DNA</h3>
+              <p>นำข้อมูลสีมาเทียบกับตารางรหัสสี เพื่อแปลงเป็นลำดับเบสของ DNA</p>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal delay-2">
+            <div class="timeline-no">03</div>
+            <div class="timeline-content">
+              <h3>เปลี่ยน DNA เป็น mRNA</h3>
+              <p>นักเรียนฝึกกระบวนการ Transcription โดยถอดรหัส DNA ไปเป็น mRNA</p>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="timeline-no">04</div>
+            <div class="timeline-content">
+              <h3>อ่าน Codon</h3>
+              <p>แบ่งลำดับ mRNA เป็นชุดละ 3 เบส หรือ Codon เพื่อเตรียมแปลรหัส</p>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal delay-1">
+            <div class="timeline-no">05</div>
+            <div class="timeline-content">
+              <h3>แปลรหัสเป็นกรดอะมิโน</h3>
+              <p>ใช้ตาราง Codon แปลความหมายจาก mRNA ไปเป็นลำดับกรดอะมิโน</p>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal delay-2">
+            <div class="timeline-no">06</div>
+            <div class="timeline-content">
+              <h3>ร้อยลูกปัดสร้าง Polypeptide</h3>
+              <p>นำลำดับกรดอะมิโนที่ได้มาร้อยเป็นแบบจำลองสาย Polypeptide</p>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="timeline-no">07</div>
+            <div class="timeline-content">
+              <h3>อภิปรายและสรุปผล</h3>
+              <p>นักเรียนร่วมกันวิเคราะห์ผล เปรียบเทียบลำดับโปรตีน และเชื่อมโยงกับแนวคิดเรื่อง Mutation</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BIO CONCEPT -->
+    <section class="section alt-section">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-tag">BIOLOGY CONCEPT</p>
+          <h2>กระบวนการสังเคราะห์โปรตีน</h2>
+          <p>CodonLab เชื่อมโยงแนวคิดสำคัญของชีววิทยาให้เห็นเป็นภาพและปฏิบัติได้จริง</p>
+        </div>
+
+        <div class="process-wrap reveal">
+          <div class="process-box">DNA</div>
+          <div class="process-arrow">→</div>
+          <div class="process-box">Transcription</div>
+          <div class="process-arrow">→</div>
+          <div class="process-box">mRNA</div>
+          <div class="process-arrow">→</div>
+          <div class="process-box">Translation</div>
+          <div class="process-arrow">→</div>
+          <div class="process-box">Protein</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section id="gallery" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-tag">ACTIVITY GALLERY</p>
+          <h2>ภาพกิจกรรมการใช้สื่อ</h2>
+          <p>ตัวอย่างภาพการจัดกิจกรรมจริงในชั้นเรียน สามารถเปลี่ยนรูปเหล่านี้เป็นภาพของคุณเองได้ทันที</p>
+        </div>
+
+        <div class="gallery-grid">
+          <div class="gallery-item reveal">
+            <img src="assets/activity1.jpg" alt="กิจกรรมที่ 1" />
+          </div>
+          <div class="gallery-item reveal delay-1">
+            <img src="assets/activity2.jpg" alt="กิจกรรมที่ 2" />
+          </div>
+          <div class="gallery-item reveal delay-2">
+            <img src="assets/activity3.jpg" alt="กิจกรรมที่ 3" />
+          </div>
+          <div class="gallery-item reveal">
+            <img src="assets/activity4.jpg" alt="กิจกรรมที่ 4" />
+          </div>
+          <div class="gallery-item reveal delay-1">
+            <img src="assets/activity5.jpg" alt="กิจกรรมที่ 5" />
+          </div>
+          <div class="gallery-item reveal delay-2">
+            <img src="assets/activity6.jpg" alt="กิจกรรมที่ 6" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESULTS -->
+    <section id="results" class="section alt-section">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-tag">LEARNING OUTCOMES</p>
+          <h2>ผลที่เกิดจากการใช้สื่อ</h2>
+          <p>CodonLab ไม่ได้เป็นเพียงสื่อที่สวยงาม แต่เป็นเครื่องมือที่ช่วยให้ผู้เรียนเข้าใจเนื้อหายากได้อย่างมีประสิทธิภาพ</p>
+        </div>
+
+        <div class="results-grid">
+          <div class="result-card reveal">
+            <h3>เพิ่มความเข้าใจเชิงลึก</h3>
+            <p>ผู้เรียนสามารถเชื่อมโยงความสัมพันธ์ของ DNA, RNA, Codon และโปรตีนได้ชัดเจนขึ้น</p>
+          </div>
+
+          <div class="result-card reveal delay-1">
+            <h3>เกิดการเรียนรู้ผ่านการลงมือทำ</h3>
+            <p>ผู้เรียนมีส่วนร่วมในการคิด วิเคราะห์ ถอดรหัส และสร้างแบบจำลองด้วยตนเอง</p>
+          </div>
+
+          <div class="result-card reveal delay-2">
+            <h3>พัฒนาทักษะกระบวนการทางวิทยาศาสตร์</h3>
+            <p>ช่วยฝึกการสังเกต การตีความข้อมูล การแก้ปัญหา และการอภิปรายร่วมกัน</p>
+          </div>
+        </div>
+
+        <div class="quote-card reveal">
+          <p>
+            “CodonLab ทำให้เรื่องการสังเคราะห์โปรตีนที่เคยมองว่ายาก
+            กลายเป็นกิจกรรมที่นักเรียนเข้าใจได้ สนุก และอยากเรียนรู้ต่อ”
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section cta-section">
+      <div class="container">
+        <div class="cta-box reveal">
+          <h2>พร้อมนำเสนอ CodonLab อย่างมืออาชีพแล้วหรือยัง?</h2>
+          <p>
+            เว็บไซต์นี้สามารถนำไปใช้เป็นหน้าแสดงผลงานนวัตกรรม สื่อการเรียนรู้
+            หรือประกอบการนำเสนอในงานวิชาการได้ทันที
+          </p>
+          <a href="#top" class="btn btn-primary">กลับขึ้นด้านบน</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <div>
+        <h3>CodonLab : ปฏิบัติการถอดรหัสสร้างชีวิต</h3>
+        <p>สื่อการเรียนรู้เพื่อพัฒนาความเข้าใจเรื่องการสังเคราะห์โปรตีน</p>
+      </div>
+      <div>
+        <p>พัฒนาโดย : ครูผู้สอน</p>
+        <p>โรงเรียนของคุณ</p>
+        <p>เผยแพร่ผ่าน GitHub Pages</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox">
+    <span class="lightbox-close" id="lightboxClose">&times;</span>
+    <img id="lightboxImg" src="" alt="ภาพกิจกรรมขยาย" />
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
