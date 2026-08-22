@@ -976,31 +976,71 @@ a {
     padding: 18px;
   }
 
-.hero-image {
-  background-size: 82%;
-  opacity: 0.18;
-}
+
 
   .dna-ring {
     width: 240px;
     height: 240px;
   }
 
-  .floating-card {
-    position: static;
-    margin-top: 10px;
-    max-width: none;
-  }
+.hero-card {
+  position: relative;
+  min-height: 430px;
+  padding: 0;
+  overflow: hidden;
+}
 
-  .hero-card {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
+.hero-image {
+  position: absolute;
+  inset: 0;
 
-  .hero-image {
-    flex: 1;
-  }
+  background-size: cover;
+  background-position: center;
+  opacity: 0.48;
+}
+
+.floating-card {
+  position: absolute;
+  z-index: 3;
+
+  min-width: 130px;
+  max-width: 170px;
+
+  padding: 0;
+  margin: 0;
+
+  text-align: center;
+
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+/* Transcribe */
+.fc-1 {
+  top: 32px;
+  left: 12px;
+}
+
+/* Translate */
+.fc-2 {
+  top: 190px;
+  right: 8px;
+}
+
+/* Trait Expression */
+.fc-3 {
+  bottom: 32px;
+  left: 18px;
+}
+
+.floating-card strong {
+  font-size: 1rem;
+}
+
+.floating-card span {
+  font-size: 0.78rem;
+}
 
 .step-gallery {
   grid-template-columns: 1fr;
