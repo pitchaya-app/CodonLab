@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900">
+<defs>
+  <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#091526"/><stop offset="1" stop-color="#07101d"/>
+  </linearGradient>
+  <radialGradient id="r" cx="50%" cy="45%" r="55%">
+    <stop stop-color="#57e7ff" stop-opacity=".22"/><stop offset="1" stop-color="#6893ff" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+<rect width="1400" height="900" fill="url(#g)"/>
+<rect width="1400" height="900" fill="url(#r)"/>
+<g opacity=".12" stroke="#ffffff">
+  <path d="M0 150H1400M0 300H1400M0 450H1400M0 600H1400M0 750H1400"/>
+  <path d="M175 0V900M350 0V900M525 0V900M700 0V900M875 0V900M1050 0V900M1225 0V900"/>
+</g>
+<circle cx="700" cy="390" r="200" fill="none" stroke="#57e7ff" stroke-width="4" stroke-opacity=".35"/>
+<circle cx="700" cy="390" r="140" fill="none" stroke="#6893ff" stroke-width="4" stroke-opacity=".35" stroke-dasharray="12 18"/>
+<text x="700" y="390" text-anchor="middle" dominant-baseline="middle" fill="#ffffff" font-family="Arial" font-size="190" font-weight="700">01</text>
+<text x="700" y="650" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="44" font-weight="700">MISSION START</text>
+<text x="700" y="712" text-anchor="middle" fill="#9fb7d1" font-family="Arial" font-size="27">วางภาพรับภารกิจและวิเคราะห์โจทย์</text>
+<text x="700" y="805" text-anchor="middle" fill="#57e7ff" font-family="Arial" font-size="20" letter-spacing="6">REPLACE WITH YOUR CLASSROOM PHOTO</text>
+</svg>

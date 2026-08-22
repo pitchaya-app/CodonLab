@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
+<defs>
+  <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+    <stop offset="0" stop-color="#173c5a"/>
+    <stop offset="0.45" stop-color="#0b2037"/>
+    <stop offset="1" stop-color="#06101e"/>
+  </radialGradient>
+  <linearGradient id="dna" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#57e7ff"/>
+    <stop offset="0.52" stop-color="#6893ff"/>
+    <stop offset="1" stop-color="#4fffc2"/>
+  </linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1000" height="1000" rx="80" fill="url(#bg)"/>
+<g opacity=".14" stroke="#79e9ff">
+  <path d="M0 170H1000M0 330H1000M0 500H1000M0 670H1000M0 830H1000"/>
+  <path d="M170 0V1000M330 0V1000M500 0V1000M670 0V1000M830 0V1000"/>
+</g>
+<circle cx="500" cy="500" r="335" fill="none" stroke="#57e7ff" stroke-opacity=".18" stroke-width="2"/>
+<circle cx="500" cy="500" r="270" fill="none" stroke="#ad7dff" stroke-opacity=".18" stroke-width="2" stroke-dasharray="12 17"/>
+<g fill="none" stroke="url(#dna)" stroke-width="24" stroke-linecap="round" filter="url(#glow)">
+  <path d="M350 155 C705 260, 295 395, 650 500 C1005 605, 295 740, 650 845"/>
+  <path d="M650 155 C295 260, 705 395, 350 500 C-5 605, 705 740, 350 845"/>
+</g>
+<g stroke="#dffcff" stroke-width="8" stroke-opacity=".72">
+  <line x1="405" y1="198" x2="595" y2="198"/>
+  <line x1="365" y1="270" x2="635" y2="270"/>
+  <line x1="395" y1="350" x2="605" y2="350"/>
+  <line x1="455" y1="425" x2="545" y2="425"/>
+  <line x1="405" y1="575" x2="595" y2="575"/>
+  <line x1="365" y1="650" x2="635" y2="650"/>
+  <line x1="395" y1="730" x2="605" y2="730"/>
+  <line x1="455" y1="800" x2="545" y2="800"/>
+</g>
+<text x="500" y="500" text-anchor="middle" dominant-baseline="middle" fill="#ffffff" font-size="82" font-family="Arial" font-weight="700" letter-spacing="8">CODON</text>
+<text x="500" y="575" text-anchor="middle" fill="#8befff" font-size="48" font-family="Arial" font-weight="700" letter-spacing="16">LAB</text>
+<text x="500" y="920" text-anchor="middle" fill="#9fbad2" font-size="26" font-family="Arial" letter-spacing="5">DECODE • TRANSLATE • CREATE</text>
+</svg>
